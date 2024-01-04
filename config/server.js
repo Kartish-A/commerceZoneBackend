@@ -7,4 +7,10 @@ module.exports = ({ env }) => ({
   webhooks: {
     populateRelations: env.bool('WEBHOOKS_POPULATE_RELATIONS', false),
   },
+  settings: {
+    cors: {
+      enabled: true,
+      origin: [env("CORS_ORIGIN", "https://commerce-zone.vercel.app")], // Add your frontend URL here
+    },
+  },
 });
