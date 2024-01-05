@@ -16,6 +16,7 @@
     "better-sqlite3": "^8.4.0",
     "heroku": "^8.4.1",
     "sharp": "^0.32.1",
+    "strapi-plugin-vercel-deploy": "^1.4.0",
     "stripe": "^12.10.0"
   },
   "author": "Abdoulfatah",
