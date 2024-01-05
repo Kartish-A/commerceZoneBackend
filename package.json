@@ -10,9 +10,9 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.10.7",
-    "@strapi/plugin-users-permissions": "4.10.7",
-    "@strapi/strapi": "4.10.7",
+    "@strapi/plugin-i18n": "^4.10.7",
+    "@strapi/plugin-users-permissions": "^4.10.7",
+    "@strapi/strapi": "^4.10.7",
     "better-sqlite3": "^8.4.0",
     "heroku": "^8.4.1",
     "sharp": "^0.32.1",
@@ -24,8 +24,8 @@
     "uuid": "a539f207-9610-48ff-b914-ca4e5e2de41b"
   },
   "engines": {
-    "node": "14.19.1",
-    "npm": "6.0.0"
+    "node": "^14.19.1",
+    "npm": "^6.0.0"
   },
   "license": "MIT",
   "main": "index.js"
